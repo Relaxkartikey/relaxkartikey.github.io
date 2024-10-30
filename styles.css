@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    margin: 10px 0;
+}
+
+.connect {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.social-icons img {
+    margin: 0 10px;
+}
+
+.technologies {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tech-icons img {
+    transition: transform 0.2s;
+}
+
+.tech-icons img:hover {
+    transform: scale(1.1);
+}
